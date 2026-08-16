@@ -112,4 +112,17 @@
         reagents:
         - ReagentId: DepletedUranium
           Quantity: 3
+
+- type: entity
+  id: BulletMagnumHoly
+  name: bullet (.45 magnum Holy)
+  parent: BaseBullet
+  categories: [ HideSpawnMenu ]
+  components:
+  - type: Projectile
+    damage:
+      types:
+        Piercing: 10
+        Holy: 25 
+
   # </Ratbite>
