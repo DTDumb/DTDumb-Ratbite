@@ -124,3 +124,19 @@
       - state: tip
         map: [ "enum.AmmoVisualLayers.Tip" ]
         color: "#65fe08"
+
+- type: entity
+  id: CartridgeMagnumHoly
+  name: cartridge (.45 magnum holy)
+  parent: BaseCartridgeMagnum
+  description: Heavy magnum cartridge mostly used by revolvers. This one is made with silver and prayers. It is said to kill the soul.
+  components:
+  - type: CartridgeAmmo
+    proto: BulletMagnumHoly
+  - type: Sprite
+    layers:
+      - state: base
+        map: [ "enum.AmmoVisualLayers.Base" ]
+      - state: tip
+        map: [ "enum.AmmoVisualLayers.Tip" ]
+        color: "#D2D2D2"
